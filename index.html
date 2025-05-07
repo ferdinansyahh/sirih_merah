@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibit Sirih Merah Pak Yanto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navigation -->
+  <nav class="bg-green-600 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-6">
+      <a href="#" class="text-2xl font-bold">Sirih Merah</a>
+      <ul class="flex space-x-6">
+        <li><a href="#manfaat" class="hover:underline">Manfaat</a></li>
+        <li><a href="#lokasi" class="hover:underline">Lokasi</a></li>
+        <li><a href="#testimoni" class="hover:underline">Testimoni</a></li>
+        <li><a href="#faq" class="hover:underline">FAQ</a></li>
+        <li><a href="#pesan" class="bg-white text-green-600 py-2 px-4 rounded hover:bg-gray-100 transition">Pesan</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="py-16 px-6 bg-white text-center fade-in">
+    <h1 class="text-5xl font-bold text-green-700">Sirih Merah, Tanaman Herbal Penuh Manfaat</h1>
+    <p class="text-lg text-gray-700 mt-4">Mulailah menanam sirih merah sendiri di rumah dengan bibit unggulan dari kami. Cocok untuk tanaman hias maupun kebutuhan herbal keluarga.</p>
+    <a href="#pesan" class="mt-6 inline-block bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition">Pesan Sekarang</a>
+    <div class="mt-8">
+      <img src="assets/image/image.png" alt="Bibit Sirih Merah" 
+           class="w-full rounded-lg shadow-lg mx-auto max-w-3xl transform hover:scale-105 transition-transform duration-300">
+    </div>
+  </section>
+
+  <!-- Manfaat Section -->
+  <section id="manfaat" class="py-16 px-6 bg-green-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-green-700">Manfaat Sirih Merah</h2>
+      <p class="text-gray-700 mt-4">Berikut adalah manfaat utama dari Sirih Merah:</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+        <div class="p-6 bg-white rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-green-600">Menurunkan Gula Darah</h3>
+          <p class="text-gray-600 mt-2">Membantu mengontrol kadar gula darah secara alami.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-green-600">Antiseptik Alami</h3>
+          <p class="text-gray-600 mt-2">Efektif untuk membunuh bakteri dan menjaga kebersihan tubuh.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-green-600">Meningkatkan Imunitas</h3>
+          <p class="text-gray-600 mt-2">Meningkatkan daya tahan tubuh terhadap penyakit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lokasi -->
+  <section id="lokasi" class="py-12 px-6 bg-green-100 text-center">
+    <h2 class="text-2xl font-bold text-green-700 mb-4">Lokasi Kami</h2>
+    <p class="mb-6"><span class="text-green-700 font-semibold">📍</span> Dusun Kliwonan, Sidorejo, Godean, Sleman, DIY </p>
+    <a href="https://g.co/kgs/mSeB7hH" target="_blank" class="inline-block bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition">Buka di Google Maps</a>
+  </section>
+
+  <!-- Testimoni Section -->
+  <section id="testimoni" class="py-16 px-6 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-green-700">Apa Kata Mereka?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div class="p-6 bg-green-50 rounded-lg shadow-md">
+          <p class="text-gray-600 italic">"Harga terjangkau, banyak pilihan varian sirih dan tanaman hias. Sangat puas belanja di sini!"</p>
+          <p class="mt-4 text-green-700 font-semibold">- Eka Marliana</p>
+        </div>
+        <div class="p-6 bg-green-50 rounded-lg shadow-md">
+          <p class="text-gray-600 italic">"Tempat terbaik untuk mencari berbagai jenis tanaman hias, termasuk sirih merah berkualitas."</p>
+          <p class="mt-4 text-green-700 font-semibold">- Arbiatma Gustaman</p>
+        </div>
+        <div class="p-6 bg-green-50 rounded-lg shadow-md">
+          <p class="text-gray-600 italic">"Bibit sirih merahnya sehat dan subur! Tersedia juga bibit sirih jenis lain dengan pelayanan ramah."</p>
+          <p class="mt-4 text-green-700 font-semibold">- Wuri Handayani</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalog Section -->
+  <section id="catalog" class="py-16 px-6 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-green-700">Katalog Produk</h2>
+      <p class="text-gray-700 mt-4">Pilih bibit Sirih Merah terbaik untuk kebutuhan Anda.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+        <div class="p-6 bg-green-50 rounded-lg shadow-md">
+          <img src="assets/image/sirih_merah.jpeg" alt="Bibit Sirih Merah 1" class="rounded-lg mb-4 mx-auto max-w-full">
+          <h3 class="text-xl font-semibold text-green-600">Bibit Sirih Merah A</h3>
+          <p class="text-gray-600 mt-2">Bibit unggulan dengan kualitas terbaik.</p>
+          <p class="text-green-700 font-bold mt-2">Rp 25.000</p>
+          <a href="#pesan" class="mt-4 inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition">Pesan Sekarang</a>
+        </div>
+        <div class="p-6 bg-green-50 rounded-lg shadow-md">
+          <img src="assets/image/sirih_hijau_v.jpeg" alt="Bibit Sirih Merah 1" class="rounded-lg mb-4 mx-auto max-w-full">
+          <h3 class="text-xl font-semibold text-green-600">Bibit Sirih Merah A</h3>
+          <p class="text-gray-600 mt-2">Bibit unggulan dengan kualitas terbaik.</p>
+          <p class="text-green-700 font-bold mt-2">Rp 25.000</p>
+          <a href="#pesan" class="mt-4 inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition">Pesan Sekarang</a>
+        </div>
+        <div class="p-6 bg-green-50 rounded-lg shadow-md">
+          <img src="assets/image/sirih_hitam.jpeg" alt="Bibit Sirih Merah 3" class="rounded-lg mb-4 mx-auto max-w-full">
+          <h3 class="text-xl font-semibold text-green-600">Bibit Sirih Merah C</h3>
+          <p class="text-gray-600 mt-2">Bibit premium untuk hasil maksimal.</p>
+          <p class="text-green-700 font-bold mt-2">Rp 35.000</p>
+          <a href="#pesan" class="mt-4 inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition">Pesan Sekarang</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="py-16 px-6 bg-green-100">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-green-700 text-center">Pertanyaan yang Sering Diajukan</h2>
+      <div class="mt-8 space-y-6">
+        <div class="p-6 bg-white rounded-lg shadow-md">
+          <h3 class="text-lg font-semibold text-green-600">Apakah Sirih Merah aman dikonsumsi?</h3>
+          <p class="text-gray-600 mt-2">Ya, Sirih Merah aman dikonsumsi karena berasal dari bahan alami tanpa bahan kimia tambahan.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-md">
+          <h3 class="text-lg font-semibold text-green-600">Bagaimana cara pemesanannya?</h3>
+          <p class="text-gray-600 mt-2">Anda dapat memesan melalui formulir di bawah atau menghubungi kami langsung melalui WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Pemesanan -->
+  <section id="pesan" class="py-16 px-6 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-green-700 text-center">Form Pemesanan</h2>
+      <form class="max-w-xl mx-auto mt-8 space-y-6">
+        <input type="text" placeholder="Nama Anda" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:outline-none" required>
+        <input type="tel" placeholder="Nomor WhatsApp" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:outline-none" required>
+        <textarea placeholder="Alamat Pengiriman" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:outline-none" rows="4" required></textarea>
+        <button type="submit" class="w-full bg-green-600 text-white py-4 rounded-lg hover:bg-green-700 transition">Kirim Pesanan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white text-center py-6">
+    <p>&copy; 2025 Sirih Merah Asli. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
