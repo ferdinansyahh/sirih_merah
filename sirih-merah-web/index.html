@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bibit Sirih Merah Pak Yanto</title>
+  <meta name="description" content="Bibit Sirih Merah berkualitas untuk kebutuhan herbal dan tanaman hias. Pesan sekarang dengan harga terjangkau!">
+  <meta name="keywords" content="Sirih Merah, Bibit Sirih Merah, Tanaman Herbal, Tanaman Hias, Sleman">
+  <meta name="author" content="Pak Yanto">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     /* Custom animation */
@@ -150,13 +153,18 @@
   <!-- Form Pemesanan -->
   <section id="pesan" class="py-16 px-6 bg-white">
     <div class="container mx-auto">
-      <h2 class="text-3xl font-bold text-green-700 text-center">Form Pemesanan</h2>
-      <form class="max-w-xl mx-auto mt-8 space-y-6">
-        <input type="text" placeholder="Nama Anda" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:outline-none" required>
-        <input type="tel" placeholder="Nomor WhatsApp" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:outline-none" required>
-        <textarea placeholder="Alamat Pengiriman" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:outline-none" rows="4" required></textarea>
-        <button type="submit" class="w-full bg-green-600 text-white py-4 rounded-lg hover:bg-green-700 transition">Kirim Pesanan</button>
-      </form>
+      
+      <!-- Tombol Kirim Pesan ke WhatsApp -->
+      <div class="text-center mt-8">
+        <a href="https://wa.me/6281392032250?text=Halo,%20saya%20ingin%20memesan%20bibit%20Sirih%20Merah." 
+           target="_blank" 
+           class="inline-flex items-center bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.52 3.48A11.94 11.94 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.17 1.6 6L0 24l6.26-1.57A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.2-3.48-8.52zM12 22c-1.85 0-3.66-.5-5.26-1.45l-.38-.22-3.7.93.98-3.6-.24-.38A9.94 9.94 0 0 1 2 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.27-7.73c-.29-.15-1.71-.84-1.98-.94-.26-.1-.45-.15-.64.15-.19.29-.74.94-.91 1.13-.17.19-.34.21-.63.07-.29-.15-1.22-.45-2.33-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.6.13-.13.29-.34.43-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.64-1.54-.88-2.12-.23-.56-.47-.48-.64-.48h-.55c-.19 0-.48.07-.73.36-.26.29-.96.94-.96 2.29s.99 2.65 1.13 2.84c.15.19 1.95 2.98 4.73 4.18.66.29 1.18.46 1.58.59.66.21 1.26.18 1.73.11.53-.08 1.71-.7 1.95-1.37.24-.66.24-1.23.17-1.36-.07-.13-.26-.2-.55-.34z"/>
+          </svg>
+          Kirim Pesan ke WhatsApp
+        </a>
+      </div>
     </div>
   </section>
 
